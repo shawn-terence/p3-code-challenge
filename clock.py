@@ -19,4 +19,4 @@ def clock_converter(timestr):
     else:
         pm=int(time.replace("pm",""))+1200
         return(pm)
-print(clock_converter("8.01am"))
+print(clock_converter("8.01am"))#input any time in the quotations
